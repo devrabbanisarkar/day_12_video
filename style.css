@@ -1,0 +1,94 @@
+/* *{
+    padding: 0;
+    margin: 0;
+} */
+
+.header-menu{
+    background-color: #2685cb;
+    padding: 5px;
+    position: relative;
+}
+.header-menu ul {
+    text-align: center;
+  
+}
+.header-menu ul li{
+    display: inline-block;
+}
+.header-menu ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px 10px ;
+    font-size: 20px;
+    border-right: 1px solid white; 
+    margin-left: -4px;
+}
+.header-menu li a:hover{
+    background-color: rgb(66, 66, 242);
+    transition: .4s;
+}
+.header-menu ul li:last-child a{
+    border-right: none;
+}
+
+/* dropdwon_menu */
+.header-menu ul li{
+    position: relative;
+}
+.header-menu ul li ul{
+    position: absolute;
+    top: 45px;
+    left: 0;
+    width: 150px;
+    background-color: #2685cb;
+    display: block;
+    padding: 10px 10px;
+    border-left: none;
+    height: 200px;
+    margin-right: -0;
+
+
+}
+.header-menu ul li ul li{
+    display: block;
+}
+.header-menu ul li ul li a{
+    display: block;
+    transition: .4s;
+}
+
+.header-menu ul li ul{
+    display: none;
+}
+
+
+.header-menu ul li:hover ul{
+    display: block;
+    
+}
+
+.social{
+    margin-top: 50px ;
+  
+}
+.social ul{
+    text-align: center;
+    list-style: none;
+    margin-left: 200px;
+    
+}
+.social ul li{
+    display: inline-block;
+}
+.social ul li a{
+    font-size: 40px;
+    background-color: bisque;
+    padding: 10px 10px;
+    border-radius: 50%;
+   
+    
+}
+.social ul li a:hover{
+    background-color: #2685cb;
+    
+}
